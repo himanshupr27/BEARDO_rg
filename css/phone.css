@@ -1,0 +1,57 @@
+/* navbar */
+#navbar{
+    flex-direction: column;
+}
+#logo img {
+    height: 59px;}
+
+/* home */
+#home {
+    height: 440px;
+}
+#bead img {
+    height: 66px;
+    margin-left: -5px;
+}
+#bead h1 {
+    font-size: 3.5rem;
+}
+/* our products */
+#services{
+    flex-direction: column;
+}
+#services-container
+{
+    padding-bottom: 2px;
+    height: auto;
+}
+#services .box {
+    margin: 25px 45px
+}
+/* brand ambasder */
+#imb{
+    flex-wrap: wrap;
+}
+#brand-ambasder::before {
+height: 1150px;
+}
+#i1 p{
+    margin-left: 31px;
+}
+#i2 p{
+    margin-left: -10px;
+}
+#i3 p,#i4 p{
+    margin-left: 18px;
+}
+/* contact us */
+#contact-box input[type="submit"]{
+    margin-left:  26px; ;
+
+}
+.h-prim{
+font-size: 3.8rem;
+}
+.h-primary{
+    font-size: 3.5rem;   
+}

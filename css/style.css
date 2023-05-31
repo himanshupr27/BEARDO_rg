@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#logo {
+    margin: 10px 34px;
+}
+#logo img{
+    height: 26px;
+    margin: -4px;
+    border-radius: 50%;
+}
+#navbar ul{
+    display:flex;
+}
+#navbar{
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 0.8rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 13px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+#navbar ul li a:hover{
+      color: black;
+      background-color: white;
+      font-weight: 700;
+}
+#search{
+    vertical-align:middle;
+    background-color: white;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+#search input{
+    vertical-align: middle;
+    margin-top: -15px;
+    border:0px solid white;
+}
+.material-icons{
+    color: rgb(11, 11, 11);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    height:480px;
+
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('../pico/pic.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+.h-primary{
+    font-size: 4.4rem;
+    color: white;
+    opacity: 70%;
+    font-family: 'Pangolin', cursive;
+    text-shadow: 0px 0px 20px grey;
+}
+#bead{
+    display: flex;
+    align-items: center;
+}
+#bead img{
+    height: 79px;
+    margin: 18px;
+    border-radius: 50%;
+}
+#bead h1{
+    color: white;
+    opacity: 70%;
+    font-size: 4.5rem;
+    font-family:'Bree Serif', serif;
+    text-shadow: 0px 0px 20px grey;
+}
+#col img{
+    width: 100%;
+}
+#col{
+    box-shadow: gray -1px -5px 20px 0px;
+}
+#services-container{
+    background-color: #6c6c6c;
+   box-shadow:  0px -17px 20px 20px grey;
+   height: 540px;
+    
+}
+.sec{
+    color: rgb(255, 252, 252);
+    font-size: 3.8rem;
+    font-family:'Bree Serif', serif;
+    text-shadow: 1px 9px 0px black;;
+
+}
+#services{
+    background-color: rgba(210, 210, 210, 0.525);
+    margin: 10px;
+    display: flex;
+    border-radius: 20px;
+  
+}
+#services .box{ 
+    padding: 15px;
+    margin: 24px 45px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 23px;
+    box-shadow: 0px 0px 19px 6px black;
+}
+#services .box img{ 
+    height: 160px;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(198, 198, 198);
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    
+} 
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}
+.h-prim{
+    color: rgb(239, 236, 236);
+    font-size: 4.84rem;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 15px 10px 11px black;
+}
+#brand-ambasder::before{
+    content: "";
+    position: absolute;
+    background:url('../pico/brick.jpg')no-repeat center center/cover;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.888;
+}
+#imb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgb img{
+    height: 160px;
+    margin: auto;
+    display: block;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 20px 0px white;
+}
+#imb .imgb{
+    height:210px;
+    width: 210px;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 16px 38px 5px 28px;
+    margin: 8px 23px 8px 23px;
+}
+.imgb p{
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    width: max-content;
+    margin-top: 7px;
+}
+#contact{
+    position: relative;
+    box-shadow: 0px -3px 5px 3px grey;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('../pico/blak.jpg') no-repeat center center/cover;
+    opacity: 0.86;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+label{
+    color: rgb(237, 237, 237);
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+#contact-box input[type="submit"]{
+    width: 120px;
+    font-size: 0.7rem;
+    background-color: green;
+    box-shadow: 0px 0px 11px 2px #b3eba3;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-left: 190px;
+}
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,27 @@
+#navbar ul li a {
+    padding: 2px 6px;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 0.7rem;
+}
+#services .box img {
+    height: 138px;
+}
+#services .box img[src="pico/one.jpg"] {
+    height: 138px;
+    width: 155px;
+}
+.sec {
+    font-size: 2.8rem;
+}
+.h-prim {
+    font-size: 2.8rem;
+}
+#brand-ambasder::before {
+    height: 1109px;
+}
+#contact-box input[type="submit"] {
+    width: 88px;
+    margin-left: 24px;
+}
